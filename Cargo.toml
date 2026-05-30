@@ -1,0 +1,11 @@
+[package]
+name = "lau-challenge"
+version = "0.1.0"
+edition = "2021"
+description = "Challenge/arena system for Lau — kids create challenges and the system validates solutions"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1.0.150"
